@@ -26,5 +26,12 @@ namespace RetailManagment.Controllers
 
             return View();
         }
+
+        public ActionResult SignUp()
+        {
+            ViewBag.Message = "User Sign Up";
+
+            return View();
+        }
     }
 }
